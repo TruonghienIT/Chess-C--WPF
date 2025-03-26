@@ -1,0 +1,20 @@
+﻿ChessUI
+
+
+winexe
+C#
+.cs
+C:\GAME CỜ VUA\ChessUI\obj\Release\net8.0-windows\
+ChessUI
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+C:\GAME CỜ VUA\ChessUI\App.xaml
+5-1469205151
+
+11-84166988
+1991111280658
+GameOverMenu.xaml;MainWindow.xaml;PauseMenu.xaml;PlayerNameWindow.xaml;PromotionMenu.xaml;
+
+True
+

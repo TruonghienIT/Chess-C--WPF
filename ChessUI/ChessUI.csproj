@@ -1,0 +1,87 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\angry.png" />
+    <None Remove="Assets\avatar.jpg" />
+    <None Remove="Assets\BishopB.png" />
+    <None Remove="Assets\BishopW.png" />
+    <None Remove="Assets\Board.png" />
+    <None Remove="Assets\cool.png" />
+    <None Remove="Assets\crying.png" />
+    <None Remove="Assets\CursorB.cur" />
+    <None Remove="Assets\CursorW.cur" />
+    <None Remove="Assets\happy.png" />
+    <None Remove="Assets\hourglass.png" />
+    <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\KingB.png" />
+    <None Remove="Assets\KingW.png" />
+    <None Remove="Assets\KnightB.png" />
+    <None Remove="Assets\KnightW.png" />
+    <None Remove="Assets\laughing.png" />
+    <None Remove="Assets\love.png" />
+    <None Remove="Assets\oclock.png" />
+    <None Remove="Assets\PawnB.png" />
+    <None Remove="Assets\PawnW.png" />
+    <None Remove="Assets\player1.png" />
+    <None Remove="Assets\player2.png" />
+    <None Remove="Assets\QueenB.png" />
+    <None Remove="Assets\QueenW.png" />
+    <None Remove="Assets\RookB.png" />
+    <None Remove="Assets\RookW.png" />
+    <None Remove="Assets\sad.png" />
+    <None Remove="Assets\sleeping.png" />
+    <None Remove="Assets\sound_move.wav" />
+    <None Remove="Assets\surprised.png" />
+    <None Remove="Assets\thinking.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\hourglass.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChessLogic\ChessLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\angry.png" />
+    <Resource Include="Assets\avatar.jpg" />
+    <Resource Include="Assets\BishopB.png" />
+    <Resource Include="Assets\BishopW.png" />
+    <Resource Include="Assets\Board.png" />
+    <Resource Include="Assets\cool.png" />
+    <Resource Include="Assets\crying.png" />
+    <Resource Include="Assets\CursorB.cur" />
+    <Resource Include="Assets\CursorW.cur" />
+    <Resource Include="Assets\happy.png" />
+    <Resource Include="Assets\icon.ico" />
+    <Resource Include="Assets\KingB.png" />
+    <Resource Include="Assets\KingW.png" />
+    <Resource Include="Assets\KnightB.png" />
+    <Resource Include="Assets\KnightW.png" />
+    <Resource Include="Assets\laughing.png" />
+    <Resource Include="Assets\love.png" />
+    <Resource Include="Assets\PawnB.png" />
+    <Resource Include="Assets\PawnW.png" />
+    <Resource Include="Assets\player1.png" />
+    <Resource Include="Assets\player2.png" />
+    <Resource Include="Assets\QueenB.png" />
+    <Resource Include="Assets\QueenW.png" />
+    <Resource Include="Assets\RookB.png" />
+    <Resource Include="Assets\RookW.png" />
+    <Resource Include="Assets\sad.png" />
+    <Resource Include="Assets\sleeping.png" />
+    <Resource Include="Assets\sound_move.wav" />
+    <Resource Include="Assets\surprised.png" />
+    <Resource Include="Assets\thinking.png" />
+  </ItemGroup>
+
+</Project>
