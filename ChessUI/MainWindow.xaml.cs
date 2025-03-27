@@ -430,13 +430,13 @@ namespace ChessUI
         {
             try
             {
+                //Thay bằng đường truyển tuyệt đối
                 string soundPath = @"C:\RunPlayChess\RunChess\RunChess\Chess\ChessUI\Assets\sound_move.wav";
                 moveSoundPlayer.Open(new Uri(soundPath, UriKind.Absolute));
                 moveSoundPlayer.Play();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Không thể phát âm thanh: " + ex.Message);
             }
         }
 
