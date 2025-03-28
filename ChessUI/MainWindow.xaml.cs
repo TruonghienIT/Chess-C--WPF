@@ -41,6 +41,9 @@ namespace ChessUI
 
         // Tạo player toàn cục
         private MediaPlayer moveSoundPlayer = new MediaPlayer();
+        
+        private bool hideNotification;
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -430,13 +433,18 @@ namespace ChessUI
         {
             try
             {
-                //Thay bằng đường truyển tuyệt đối
-                string soundPath = @"C:\RunPlayChess\RunChess\RunChess\Chess\ChessUI\Assets\sound_move.wav";
+                string soundPath = @"C:\GAME CỜ VUA\ChessUI\Assets\sound_move.wav";
                 moveSoundPlayer.Open(new Uri(soundPath, UriKind.Absolute));
                 moveSoundPlayer.Play();
             }
             catch (Exception ex)
             {
+                if(!hideNotification)
+                {
+                    MessageBox.Show("Nếu muốn nghe âm thanh di chuyển quân cờ\t\n" +
+                        "Cần sửa đổi đường truyền âm thanh thành đường truyền tuyệt đối: " + ex.Message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                    hideNotification = true;
+                }    
             }
         }
 
